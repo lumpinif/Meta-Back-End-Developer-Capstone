@@ -88,7 +88,15 @@ DATABASES = {
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
         }
-    }
+    },
+        'TEST': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'test_LittleLemon',
+        'USER': 'username',
+        'PASSWORD': 'password',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+    },
 }
 
 
