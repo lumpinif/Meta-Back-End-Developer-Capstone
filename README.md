@@ -3,11 +3,16 @@
 ![Meta](https://img.shields.io/badge/Meta-0668E1?style=plastic&logo=meta&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-0747a6?style=plastic&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092e20?style=plastic&logo=django&logoColor=white)
+![MySql](https://img.shields.io/badge/MySql-092e20?style=plastic&logo=mysql&logoColor=white)
 ![Javascript](https://img.shields.io/badge/Javascript-092e20?style=plastic&logo=javascript&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-092e20?style=plastic&logo=HTML&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-092e20?style=plastic&logo=CSS&logoColor=white)
 
+<br>
+
 Building RESTful APIs using [Django Rest Framework](https://www.django-rest-framework.org/) connected to a [MySQL](https://dev.mysql.com/downloads/) as part of the [Meta Back-End Developer Certificate](https://www.coursera.org/professional-certificates/meta-back-end-developer) teached by [Meta](https://www.facebook.com/business/learn/back-end-back-end-developer-certificate-coursera).
+
+<br>
 
 <p align="center">
 <!--     <a href="https://www.credly.com/org/facebook-blueprint/badge/meta-back-end-developer-certificate"> -->
