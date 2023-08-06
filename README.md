@@ -4,6 +4,43 @@
 
 LittleLemon Capstone Project is a Django web application developed to manage the Little Lemon Restaurant operations. The app provides interfaces to manage menu items, bookings, user registration, and authentication.
 
+
+## Prerequisites
+
+Ensure you have Python installed on your system. If not, download and install Python from the official [Python website](https://www.python.org/downloads/).
+
+## Setting Up a Virtual Environment
+
+### For macOS:
+
+1. **Navigate to the project directory**
+
+   Open the terminal and navigate to the "LittleLemon" project directory.
+  
+2. **Activate the virtual environment**
+
+   ```bash
+   source littlelemon_env/bin/activate
+   ```
+### For Windows:
+
+1. **Navigate to the project directory**
+
+   Open the Command Prompt or PowerShell and navigate to the "LittleLemon" project directory.
+
+2. **Activate the virtual environment**
+
+   If using Command Prompt:
+   
+   ```bash
+   .\littlelemon_env\Scripts\activate
+   ```
+    If using PowerShell:
+
+   ```bash
+   .\littlelemon_env\Scripts\Activate.ps1
+   ```
+
 ## Models
 
 ### 1. Menu
