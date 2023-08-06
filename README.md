@@ -1,8 +1,11 @@
 # LittleLemon Capstone Project - Django API Documentation
-
-![Coursera](https://img.shields.io/badge/Coursera-0747a6?style=flat&logo=coursera&logoColor=white)
-![Meta](https://img.shields.io/badge/Meta-0668E1?style=flat&logo=meta&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092e20?style=flat&logo=django&logoColor=white)
+![Coursera](https://img.shields.io/badge/Coursera-0747a6?style=plastic&logo=coursera&logoColor=white)
+![Meta](https://img.shields.io/badge/Meta-0668E1?style=plastic&logo=meta&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0747a6?style=plastic&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092e20?style=plastic&logo=django&logoColor=white)
+![Javascript](https://img.shields.io/badge/Javascript-092e20?style=plastic&logo=javascript&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-092e20?style=plastic&logo=HTML&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-092e20?style=plastic&logo=CSS&logoColor=white)
 
 Building RESTful APIs using [Django Rest Framework](https://www.django-rest-framework.org/) connected to a [MySQL](https://dev.mysql.com/downloads/) as part of the [Meta Back-End Developer Certificate](https://www.coursera.org/professional-certificates/meta-back-end-developer) teached by [Meta](https://www.facebook.com/business/learn/back-end-back-end-developer-certificate-coursera).
 
