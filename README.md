@@ -5,9 +5,12 @@
 LittleLemon Capstone Project is a Django web application developed to manage the Little Lemon Restaurant operations. The app provides interfaces to manage menu items, bookings, user registration, and authentication.
 
 
+
 ## Prerequisites
 
 Ensure you have Python installed on your system. If not, download and install Python from the official [Python website](https://www.python.org/downloads/).
+
+
 
 ## Setting Up a Virtual Environment
 
@@ -40,6 +43,34 @@ Ensure you have Python installed on your system. If not, download and install Py
    ```bash
    .\littlelemon_env\Scripts\Activate.ps1
    ```
+
+
+
+## Setting up the Project on a New Machine
+
+1. Clone the Git repository to your local machine.
+2. Navigate to the project root directory.
+3. Install required packages:
+   
+```bash
+pip install -r requirements.txt
+```
+
+4. Set up the MySQL database with the name `LittleLemon`. Update the `DATABASES` configuration in `settings.py` with your MySQL credentials.
+5. Run migrations:
+   
+```bash
+python manage.py migrate
+```
+
+6. Start the Django development server:
+
+```bash
+python manage.py runserver
+```
+
+
+
 
 ## Models
 
@@ -103,28 +134,25 @@ Uses Django REST framework's default router, supporting multiple CRUD operations
 ```
 
 
-## Setting up the Project on a New Machine
+## Using Bearer Token in Requests
 
-1. Clone the Git repository to your local machine.
-2. Navigate to the project root directory.
-3. Install required packages:
-   
-```bash
-pip install -r requirements.txt
-```
+Once you've obtained an authentication token from the `/token-auth/` endpoint, you should use it as a Bearer token in the headers of your requests to access protected resources.
 
-4. Set up the MySQL database with the name `LittleLemon`. Update the `DATABASES` configuration in `settings.py` with your MySQL credentials.
-5. Run migrations:
-   
-```bash
-python manage.py migrate
-```
+For endpoints that require authentication:
 
-6. Start the Django development server:
+1. In your client or tool (like Insomnia or Postman), set up the request headers.
+2. Add the `Authorization` header with the value `Bearer YOUR_OBTAINED_TOKEN`. Replace `YOUR_OBTAINED_TOKEN` with the token you received.
 
-```bash
-python manage.py runserver
-```
+**Example**:
+
+   ```
+      Authorization: Bearer 1234567890abcdef1234567890abcdef
+   ```
+> **Note**: If your token is invalid or expired, you'll receive a `401 Unauthorized` response.
+
+
+---
+
 
 ## Review Criteria
 
@@ -135,20 +163,6 @@ python manage.py runserver
 5. **User Registration & Authentication**: The app is integrated with the `djoser` library for user registration and authentication. The URLs for these operations can be found under the `/auth/` path.
 6. **Unit Tests**: [Awaiting code for the unit tests]
 7. **Testing with Insomnia**: All APIs can be tested using the Insomnia REST client by sending requests to the provided API paths.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
