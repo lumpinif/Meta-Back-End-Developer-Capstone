@@ -15,17 +15,23 @@ Building RESTful APIs using [Django Rest Framework](https://www.django-rest-fram
     </a>
 </p>
 
+<br>
+
 ## Introduction
 
 LittleLemon Capstone Project is a Django web application developed to manage the Little Lemon Restaurant operations. The app provides interfaces to manage menu items, bookings, user registration, and authentication.
 
 
 
+<br>
+
 ## Prerequisites
 
 Ensure you have Python installed on your system. If not, download and install Python from the official [Python website](https://www.python.org/downloads/).
 
 
+
+<br>
 
 ## Setting Up a Virtual Environment
 
@@ -61,6 +67,8 @@ Ensure you have Python installed on your system. If not, download and install Py
 
 
 
+<br>
+
 ## Setting up the Project on a New Machine
 
 1. Clone the Git repository to your local machine.
@@ -86,6 +94,8 @@ python manage.py runserver
 
 
 
+
+<br>
 
 ## Models
 
@@ -148,6 +158,8 @@ Uses Django REST framework's default router, supporting multiple CRUD operations
 }
 ```
 
+<br>
+
 
 ## Using Bearer Token in Requests
 
@@ -163,11 +175,13 @@ For endpoints that require authentication:
    ```
       Authorization: Bearer 1234567890abcdef1234567890abcdef
    ```
+
 > **Note**: If your token is invalid or expired, you'll receive a `401 Unauthorized` response.
 
 
----
 
+
+<br>
 
 ## Review Criteria
 
